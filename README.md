@@ -18,7 +18,7 @@ In order to deal with the ‘missingness’ for the above values, two datasets w
 A comprehensive breakdown between churned vs. not churned user base is provided within [EDA Notebook](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/3_EDA/03_EDA_Bank_Churnrate.ipynb) as well as assessing different correlation between the target "Attrition_Flag" column and other features of both 'missing' and 'dropped' datasets.
 
 ## Pre-Processing and Training:
-A description of avoiding the dummy variable trap and generating 70/30 test train splits for the datasets is given within [Preprocess_and_Training](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/4_Preprocess_and_Training/04_Preprocess_and_Training_Bank_Churnrate.ipynb).
+A description of avoiding the dummy variable trap and generating 70/30 test train splits for the datasets is given within [Preprocess_and_Training Notebook](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/4_Preprocess_and_Training/04_Preprocess_and_Training_Bank_Churnrate.ipynb).
 
 ## Modeling:
 Different models (Logistic Regression, Random Forest, Gradient Boosting, Support Vector Classifier, AdaBoost to improve Random Forest and Gradient Boosting models, and Mulit-Layer Perceptron Neural Network) were tested with the 70/30 train test split and cross validated with GridSearchCV to obtain optimal hyperparameters given a list of parameters for each associated model. The final best performing and easily reproducible model being the Gradient Boosting model with ROC_AUC scores of 0.92 and 0.91 for missing and dropped datasets respectively.
