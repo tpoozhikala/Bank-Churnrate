@@ -18,16 +18,18 @@ In order to deal with the ‘missingness’ for the above values, two datasets w
 A comprehensive breakdown between churned vs. not churned user base is provided within [EDA Notebook](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/3_EDA/03_EDA_Bank_Churnrate.ipynb) as well as assessing different correlation between the target "Attrition_Flag" column and other features of both 'missing' and 'dropped' datasets.
 
 ## Pre-Processing and Training:
-A description of avoiding the dummy variable trap and generating 70/30 test train splits for the datasets is given within 
+A description of avoiding the dummy variable trap and generating 70/30 test train splits for the datasets is given within [Preprocess_and_Training](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/4_Preprocess_and_Training/04_Preprocess_and_Training_Bank_Churnrate.ipynb).
 
 ## Modeling:
 Different models (Logistic Regression, Random Forest, Gradient Boosting, Support Vector Classifier, AdaBoost to improve Random Forest and Gradient Boosting models, and Mulit-Layer Perceptron Neural Network) were tested with the 70/30 train test split and cross validated with GridSearchCV to obtain optimal hyperparameters given a list of parameters for each associated model. The final best performing and easily reproducible model being the Gradient Boosting model with ROC_AUC scores of 0.92 and 0.91 for missing and dropped datasets respectively.
+[Modeling Notebook](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/5_Modeling/05_Modeling_Bank_Churnrate.ipynb) for reference.
 
 ## Results/Conclusion:
 Additional efforts can be made along with deploying a hyperparameterized Gradient Boosting model such as having marketing deals towards the higher to likely attrite audience of females or older demographic or efforts can be made to maximize the not churned population or younger married males with children or dependents.
+[Final Project Report](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/6_Documentation/Bank_Churn_Rate_Final_Project_Report.pdf) for further documentation and reference.
 
-
-
+## Future Work:
+Future work will be to further fine tune the Gradient Boosting Model in order to reduce its respective training time as well as further optimize the Multi-Layer Perceptron Neural Network Classifier model in order to see if the model with further tuned hyperparameters can outperform the Gradient Boosting model as well as the Optimal Gradient Boosting Model with the AdaBoost Classifier model.
 
 
 
