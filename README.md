@@ -15,7 +15,7 @@ In order to begin steps of model development, the dataset was first assessed and
 In order to deal with the ‘missingness’ for the above values, two datasets were created and then assessed throughout the project to assess future model performance. One where the above columns' null data were replaced with the categorical value or string of ‘missing’ and one where any observations in the above three columns that had null values were dropped. These two datasets as reference to subsequent steps are referred to respectively as ‘missing’ dataset and ‘dropped’ dataset respectively.
 
 ## Exploratory Data Analysis
-A comprehensive breakdown between churned vs. not churned user base is provided within [EDA Notebook](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/3_EDA/03_EDA_Bank_Churnrate.ipynb) as well as assessing different correlation between the target "Attrition_Flag" column and other features of both 'missing' and 'dropped' datasets.
+A comprehensive breakdown between churned vs. not churned user base is provided within [EDA Notebook](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/3_EDA/03_EDA_Bank_Churnrate.ipynb) as well as assessing different correlations between the target "Attrition_Flag" column and other features of both 'missing' and 'dropped' datasets.
 
 ## Pre-Processing and Training
 A description of avoiding the dummy variable trap and generating 70/30 test train splits for the datasets is given within [Preprocess_and_Training Notebook](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/4_Preprocess_and_Training/04_Preprocess_and_Training_Bank_Churnrate.ipynb).
