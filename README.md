@@ -28,6 +28,11 @@ Different models (Logistic Regression, Random Forest, Gradient Boosting, Support
 Additional efforts can be made along with deploying a hyperparameterized Gradient Boosting model such as having marketing deals towards the higher to likely attrite audience of females or older demographic or efforts can be made to maximize the not churned population or younger married males with children or dependents.
 [Final Project Report](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/6_Documentation/Bank_Churn_Rate_Final_Project_Report.pdf) for further documentation and reference.
 
+| Model Name | Accuracy_score | Precision_Score  | Recall_score | f1_Score | ROC_AUC_score | Training Time (Sec)
+| ------- | --- | --- | --- | --- | --- | --- |
+| Gradient Boosting Classifier w/ Missing Dataset | 	0.967914 |	0.927273 |	0.850000 | 	0.886957 | 	0.919206 |	846.87 |
+| Gradient Boosting Classifier w/ Dropped Dataset |   0.968366 |	0.935780 |	0.836066 |	0.883117 |	0.913248 |	603.65 |
+
 ## Future Work
 Future work will be to further fine tune the Gradient Boosting Model in order to reduce its respective training time as well as further optimize the Multi-Layer Perceptron Neural Network Classifier model in order to see if the model with further tuned hyperparameters can outperform the Gradient Boosting model as well as the Optimal Gradient Boosting Model with the AdaBoost Classifier model.
 
