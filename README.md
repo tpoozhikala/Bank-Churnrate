@@ -34,8 +34,7 @@ Additional efforts can be made along with deploying a hyperparameterized Gradien
 [Final Project Report](https://github.com/tpoozhikala/Bank-Churnrate/blob/main/6_Documentation/Bank_Churn_Rate_Final_Project_Report.pdf) for further documentation and reference.
 
 ## Future Work
-Future work will be to further fine tune the Gradient Boosting Model in order to reduce its respective training time as well as further optimize the Multi-Layer Perceptron Neural Network Classifier model in order to see if the model with further tuned hyperparameters can outperform the Gradient Boosting model as well as the Optimal Gradient Boosting Model with the AdaBoost Classifier model.
-
+Future work will be to further fine tune the Gradient Boosting Model in order to reduce its respective training time as well as further optimize the Multi-Layer Perceptron Neural Network Classifier model in order to see if the model with further tuned hyperparameters can outperform the Gradient Boosting model as well as the Optimal Gradient Boosting Model with the AdaBoost Classifier model. Additional efforts would be to retrieve the feature importances of the Gradient Boosting model to gather more insight as per what features significantly affect the model.
 
 
 
