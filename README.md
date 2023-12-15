@@ -37,7 +37,7 @@ Additional efforts can be made along with deploying a hyperparameterized Gradien
 Future work will be to further fine tune the Gradient Boosting Model in order to reduce its respective training time as well as further optimize the Multi-Layer Perceptron Neural Network Classifier model in order to see if the model with further tuned hyperparameters can outperform the Gradient Boosting model as well as the Optimal Gradient Boosting Model with the AdaBoost Classifier model. Additional efforts would be to retrieve the feature importances of the Gradient Boosting model to gather more insight as per what features significantly affect the model.
 
 ## Acknowledgments
-The author would be personally like to thank [Eric Callahan](https://www.linkedin.com/in/ericcallahan/) for his guidance and support throughout the project development.
+The author would personally like to thank Springboard Mentor [Eric Callahan](https://www.linkedin.com/in/ericcallahan/) for his guidance and support throughout this project development.
 
 
 
